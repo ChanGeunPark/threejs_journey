@@ -45,7 +45,6 @@ fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
     size: 0.5,
     height: 0.2,
     curveSegments: 5, //곡선부분 얼마나 부르럽게 할건지 sigments 기억해야됨
-
     bevelEnabled: true,
     bevelThickness: 0.03,
     bevelSize: 0.02, // 꺽이는부부 부드럽게 할때 간격
