@@ -133,7 +133,7 @@ const tick = () => {
     const x = particlesGeometry.attributes.position.array[i3];
     particlesGeometry.attributes.position.array[i3 + 1] = Math.sin(
       elapsedTime + x
-    ); //일렬로 정렬
+    ); //일렬로 정렬 좋은 아이디어가 아니다
     //console.log(particlesGeometry.attributes.position.array);
   }
   particlesGeometry.attributes.position.needsUpdate = true;
